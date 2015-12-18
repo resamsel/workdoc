@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=/Volumes/Storage/Workdoc/$(date +%Y-%m-%d)/
+DIR=$HOME/Documents/Workdoc/$(date +%Y-%m-%d)/
 PREFIX=screen-$(date +%H-%M-%S)
 SCREENSHOT=$DIR$PREFIX.jpg
 WORK_IP="10.60."
