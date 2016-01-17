@@ -14,7 +14,7 @@ WORK_IP="10.60."
 [ -d $DIR ] || mkdir -p $DIR
 
 # Create screenshots
-/usr/sbin/screencapture -t jpg -x $DIR$PREFIX-0.jpg $DIR$PREFIX-1.jpg
+/usr/sbin/screencapture -t jpg -x $DIR$PREFIX-0.jpg $DIR$PREFIX-1.jpg $DIR$PREFIX-2.jpg $DIR$PREFIX-3.jpg $DIR$PREFIX-4.jpg
 # Concatenate screens into a single image
 /usr/local/bin/montage -mode concatenate $DIR$PREFIX-*.jpg $SCREENSHOT
 
